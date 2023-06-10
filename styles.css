@@ -1,0 +1,55 @@
+.root {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 0 16px;
+}
+
+#fetchButton {
+  border: none;
+  background-color: #0098EE;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#fetchButton:hover {
+  background-color: #0069a7;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tutorial-container {
+  padding: 24px;
+  margin-top: 16px;
+  background-color: #e1eced;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.tutorial-title {
+  margin: 0
+}
+
+.tutorial-date {
+  margin: 0;
+  color: #787A73;
+}
+
+.tutorial-tags {
+  margin: 0;
+}
+
+.tutorial-link {
+  margin: 0;
+  color: #0098EE
+}
+
+.tutorial-link:hover {
+  color: #0069a7
+}
